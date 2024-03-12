@@ -46,4 +46,4 @@ jobs:
         run: terraform validate -no-color
 
       - name: Terraform Apply
-        run: terraform apply -auto-approve "site_react"
+        run: terraform apply -auto-approve "site-s3"
