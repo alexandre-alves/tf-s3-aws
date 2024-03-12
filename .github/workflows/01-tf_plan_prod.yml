@@ -27,7 +27,7 @@ jobs:
         shell: bash
         working-directory: ${{ env.TF_WORKING_DIR }}
 
-  steps:
+   steps:
     - uses: actions/checkout@v4
     - uses: hashicorp/setup-terraform@v3
 
